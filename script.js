@@ -1,16 +1,14 @@
-var variableStringQuestion = ["What was Monica's name on her high school field hockey team?", "What do they call Ross when he gets angry?", "question3", "question4", "question5", "question6", "question7", "question8", "question9", "question10"]
+var variableStringQuestion = ["What was Monica's name on her high school field hockey team?", "What do they call Ross when he gets angry?", "Yeah", "question4", "question5", "question6", "question7", "question8", "question9", "question10"]
 
-var variableStringAnswerOne = ["Big Fat Goalie", "Rizzo"]
-var variableStringAnswerTwo = ["Harmonica", "Red Ross"]
-var variableStringAnswerThree = ["Laundry", "Miss Chanadler Bong"]
-var variableStringAnswerFour = ["Rachel", "Dr. Falengi"]
+var variableStringAnswerOne = ["Big Fat Goalie", "Rizzo", "Nope"]
+var variableStringAnswerTwo = ["Harmonica", "Red Ross", "Uh-huh"]
+var variableStringAnswerThree = ["Laundry", "Miss Chanadler Bong", "What"]
+var variableStringAnswerFour = ["Rachel", "Dr. Falengi", "Yeah"]
 
-var variableIntegerCorrectAnswer = [1, 2]
+var variableIntegerCorrectAnswer = [1, 2, 4]
 var x = -1
 
 increaseTheQuestionNumber()
-
-alert (answerClicked)
 
 
 function AllAnswerVerifcation(answerClicked) {
